@@ -4,17 +4,22 @@ Exercícios Propostos - 4.3. Estrutura de Repetição
 
 p4.26 - Qual a utilidade da estrutura de repetição?
 	A estrutura de repetição serve para que uma série de comandos seja repetidamente executada até que uma condição seja satisfeita dentro do Algoritmo, de forma automática.
-		Ex.: enquanto {condição} faça    
-{enquanto a condição for verdadeira o bloco de comados será executado}
+	Ex.: enquanto {condição} faça    
+	{enquanto a condição for verdadeira o bloco de comados será executado}
 
 p4.27 - Em que consiste o controle de repetições por contador?
 	O controle de repetições por contador é utilizado quando se sabe previamente a quantidade de vezes que um bloco de comandos precisará ser repetido. O contador é uma variável do tipo inteira, e para que seja executada, antes do laço deve-se pôr o valor 1, como ponto de partida para as repetições, sendo este adicionado ao conteúdo da própria variável, depois é necessário colocar o número de vezes que deve repetir-se o bloco de comandos. 
-		Ex.: para CONT de 1 até 20 faça 
-{ o "até" significa <= (menor igual que)}
+	Ex.: para CONT de 1 até 20 faça 
+	{ o "até" significa <= (menor igual que)}
 
 p4.28 - Em que consiste o controle de repetições por flag?
 	O controle por flag ocorre quando não conhecemos o total de repetições que serão necessárias, portanto será determinado por um valor de uma variável que será lido.
-		Ex.: num <- 10
+		Ex.: 
+		
+		Algoritmo Exemplo
+		Var
+			num: inteiro
+		num <- 10
 			leia num
 			enquanto num # 20 faça
 				num <- num + 1
@@ -22,6 +27,7 @@ p4.28 - Em que consiste o controle de repetições por flag?
 			fim-enquanto
 
 p4.29 - Faça o acompanhamento da execução do algoritmo abaixo e preencha a Tabela de Variáveis:
+	
 	TRECHO DE ALGORITMO
 	N <- 0
 	L <- 1
@@ -34,7 +40,7 @@ p4.29 - Faça o acompanhamento da execução do algoritmo abaixo e preencha a Ta
 	fim -enquanto 
 	
 	
-TABELA DE VARIÁVEIS
+	TABELA DE VARIÁVEIS
 	| N | L |   N != 6   | Saída | 
 	| 0 | 1 | Verdadeiro |  / |
 	| 1 |-1 | Verdadeiro |  2 |
