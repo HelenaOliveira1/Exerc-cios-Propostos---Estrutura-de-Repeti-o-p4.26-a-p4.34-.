@@ -35,14 +35,14 @@ p4.29 - Faça o acompanhamento da execução do algoritmo abaixo e preencha a Ta
 	
 	
 TABELA DE VARIÁVEIS
-	| N | L |   N != 6        | Saída | 
-	| 0 | 1 | Verdadeiro |     /     |
-	| 1 |-1 | Verdadeiro |    2     |
-	| 2 | 1 | Verdadeiro |     /     |
-	| 3 |-1 | Verdadeiro |    4     |
-	| 4 | 1 | Verdadeiro |     /     |
-	| 5 |-1 | Verdadeiro |    6     |
-	| 6 | 1 |      Falso       |     /     |
+	| N | L |   N != 6   | Saída | 
+	| 0 | 1 | Verdadeiro |  / |
+	| 1 |-1 | Verdadeiro |  2 |
+	| 2 | 1 | Verdadeiro |  / |
+	| 3 |-1 | Verdadeiro |  4 |
+	| 4 | 1 | Verdadeiro | /  |
+	| 5 |-1 | Verdadeiro | 6  |
+	| 6 | 1 |   Falso    | /  |
 
 p4.30 - Faça um algoritmo que mostre todos os números inteiros de 1 a 50.
 	
