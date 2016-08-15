@@ -33,3 +33,5 @@ p4.34 -
 		num = num + 1
 		continue
   	print("A soma dos números é igual a: ", soma)
+
+OBS.: ARQUIVO.PY em repositório Questões p4.26 - p4.34 !!! Por favor OLHAR !!!
